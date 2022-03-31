@@ -1,0 +1,604 @@
+body {
+    padding-top: 70px;
+    background-color: black;
+  background:url(yog.jpg);
+  }
+nav
+{
+background: rgba(255,255,255,.2);
+ background-color: black;
+transition: all is ease-in-out;
+    
+}
+
+.nav-item:hover
+{
+transform:scale(1.1);
+    
+}
+.nav-item
+{
+padding:2px;
+font-size:19px;
+font-weight:bold;
+    text-transform:uppercase;
+}
+.navbar-nav
+{
+padding-right:20px;
+}
+#myvideo{
+  
+  height:100%;
+  width: 100%;
+   }
+.logo{
+    width:100%;
+    height:70px;
+}
+.caption
+{
+color:white;
+position: absolute;
+top:10%;
+
+}
+/*Page 1st Home page*/
+@import "../node_modules/rfs/scss";
+ 
+h2
+{
+-webkit-text-stroke: 2px white;
+    color:black;
+    font-family:fantasy;
+        font-size:70px;
+}
+.d-flex{
+    margin-top:9px; 
+    margin-right:-25px;  
+}
+i{
+    font-size:100%;
+}
+.btn-lg
+{
+border-width:4px;
+border-radius:5%;
+font-size:20px;
+font-weight: bold;
+padding: .2rem .4rem;
+margin-left:30px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+.btn-floating{
+    background-color: blue;
+    color: white;
+    border-radius:50%;
+    margin-top:20px;
+    margin-right:20px;
+}
+.h2{
+    text-align:left;
+}
+.input-group{
+ box-shadow: 0px 0px 5px 5px blue;
+    margin-top:30px;
+     margin-bottom:10px;
+}
+.text-center{
+    top:70px;
+    bottom: auto;
+}
+.text-left{
+    top:70px;
+    bottom: auto;
+}
+
+
+
+.carousel-inner > .item {
+   height:400px;
+}
+.sec{
+    background-color:gainsboro;    
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+section
+{
+    box-sizing: border-box;	
+    box-shadow: 0px 20px 50px black;
+    border:2px solid black;
+    border-radius:20px;
+	display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap:wrap;    
+    align-items: flex-start;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 50px;   
+    overflow: hidden;
+    margin-bottom: 6%;
+}
+
+section .slide
+{	
+	height:100%;
+	flex:auto;	
+	transition: 0.5s ease-in-out; 
+    
+}
+section .slide:hover
+{
+	flex-grow:10;   
+}
+section .slide:nth-child(1)
+{
+	background-image: url("/image/excercise.jpg");
+    background-repeat: no-repeat;
+	min-height: 45vh;
+	background-size: 100% 100%;
+   
+    }
+section .slide:nth-child(2)
+{
+	min-height: 45vh;
+    background-image: url("/image/honeyy.jpg");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+ }
+section .slide .content
+{
+    bottom: 0px;	
+	text-decoration: none;
+	color:black;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0s;
+	transform: translateY(100px);
+    font-weight: bold;
+    font-size: 20px;
+}
+section .slide:hover .content
+{
+	margin-top: 10PX;
+    visibility: visible;
+	opacity: 1;
+	transition: 0.5s;
+	/*transition-delay: 0.5s;*/
+	box-shadow: 2px 2px 5px black;
+	transform: translateY(0);	
+}
+.bba{
+    background:rgba(255,255,255,0.5);
+}
+.con{
+    background-color: none;
+}
+/*Page 1st end*/
+
+/*Page 2nd: Contact Page*/
+.contac{
+    background-color: gainsboro;
+}
+.contact
+{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    overflow: hidden;
+    margin-top:2%;
+    border-radius:8px;
+     box-shadow: 0 5px 15px rgba(0,0,0,.8);
+    max-width:1100px;
+    margin:auto;  
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+form
+{
+    margin-left: 40px;
+    margin-bottom:20px;
+    margin-top:40px;
+    float: left;  
+    max-width:600px;
+}
+.inp{
+    box-sizing: border-box;
+     border-color:black;
+    box-shadow: 0px 0px 5px 4px dodgerblue;
+    width:100%;
+    height:40px;
+    border-radius:6px;
+    font-family:sans-serif;
+    margin-right:10%;
+ }
+#d{
+    box-sizing: border-box;
+    border:2px solid black;
+    box-shadow: 0px 0px 5px 4px dodgerblue;
+    height:100px;
+    border-radius:6px;
+}
+.textarea{
+    vertical-align: top;
+    }
+.location{
+   
+    margin-right:80px;
+    margin-top:40px;
+    font-size:25px;
+    margin-left:20px;
+    max-width:200px;
+    }
+
+.sub{
+    width:30%;
+    background-color:dodgerblue;
+    height:40px;
+    color:white;
+    font-size:18px;
+    border-radius:6px;
+     border-color:black;
+    
+}
+.sub:hover{
+    background-color:antiquewhite;
+    color:black;
+    border-color:blue;
+}
+.parent
+{    
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center center;
+    overflow: hidden;
+    margin-bottom: 0px;
+    
+    }
+.my_error{
+      color: red;
+ }
+.link{
+    background-color:mediumvioletred;
+    text-align:center;
+    padding-top:15px;
+    text-decoration:underline;
+    font-size:20px;
+    width:100%;
+    height:50px;
+}
+
+
+/*Page 2nd end*/
+.con{
+   
+    -webkit-text-stroke: 3px black;
+    
+}
+.son{
+    
+     -webkit-text-stroke: 3px black;
+}
+.text{
+    margin-left:10%;
+    margin-top:4%;
+}
+.hh{
+    font-size:70px;
+    color:black;
+}
+footer{
+    background-color: black;
+    color:white;
+    overflow: hidden;
+}
+/*Membership Page*/
+.cd{
+    background-color: gainsboro;
+    width:100%;
+    min-height:650px;
+}
+.boxxx{
+    border-radius: 25px; 
+    border:2px solid black;
+    min-height:400px;
+    width:80%;
+    box-sizing: border-box;	
+    box-shadow: 0px 20px 50px black; 
+    font-size:30px;
+    background: linear-gradient(to right,aqua, blue);
+   display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.boxxx1{
+   border-radius: 25px; 
+    border:2px solid black;
+    min-height: 70px;
+    width:80%;
+    box-sizing: border-box;	
+    box-shadow: 0px 20px 50px black; 
+    background-color: white;
+    padding:10px;
+    padding-left:40px;
+    padding-right:50px;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.bbb{
+    font-size:25px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-top:-6px;    
+}
+/*Expert Page*/
+.cc{
+    background-color: gainsboro;
+    width:100%;
+    min-height:780px;
+}
+.container{
+  padding-top:20px; 
+width:300px; 
+    gap:40px;
+   
+}
+.card{
+   border-radius: 25px; 
+     border:2px solid black;
+    min-height: 300px;
+    width:350px;
+    box-sizing: border-box;	
+    box-shadow: 0px 20px 50px black;
+     background: linear-gradient(to right,aqua, blue);
+}
+.card-img-top{
+    border-radius:50%;
+    border:3px solid black;
+   
+}
+.card-img-top:hover
+{
+    cursor:pointer;
+    transition:all 0.1s ease-out;
+    transform:scale(1.1);
+}
+.card-body{
+    background-color: white;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius: 25px;
+}
+.flx{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width:1200px;
+    margin: auto;
+}
+
+.bod{
+    background-color: antiquewhite;
+    width: 100%;
+    height:100vh;
+    margin:0%;
+}
+.her
+{   
+    background: linear-gradient(to right,aqua, blue);     
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-bottom:30px;
+    text-align: center;
+    -webkit-text-stroke: 2px white;
+    color:black;
+    font-family:fantasy;
+        font-size:50px;
+}
+/*products page*/
+.flexxx{
+    max-width:1255px;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:30px;
+}
+#ip{
+    width:20px;
+    height:20px;
+}
+.im{
+   width:22%;
+   min-height:340px;
+    background-color: white;
+    padding:6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.8);
+    margin-top:50px;
+    border-radius: 5px; 
+     border:2px solid black;
+    
+} 
+#cur1{
+    font-size:27px;
+    font-weight: bold;    
+    }
+#imm{
+    border:3px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.8);
+    max-width:100%;
+    margin-right:23%;
+}
+#imm:hover{
+    border:3px solid blue;
+}
+.inpp{
+    width:35%;
+    height:50px;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+     border-color:black;
+    box-shadow: 0px 0px 5px 4px dodgerblue;
+    border-radius:6px;
+}
+.bodd{
+    background-color: gainsboro;
+   
+}
+@media(max-width:900px) {
+       .location{
+           margin:auto;
+          background-color: aliceblue;
+    }
+    .container{
+        padding:10px;
+     }
+    .card{
+        max-width:80%;
+    }
+    .im{
+     width:40%;
+    } 
+}
+@media(max-width:800px)
+{
+    section .slide .content
+{
+	visibility: visible;
+}
+        
+
+    h2{
+        font-size:38px;
+    }
+}
+@media (min-width:360px) and (max-width:550px)
+{
+    
+   
+     h2{
+          margin-top: -10%;
+         font-size:22px;
+      }  
+    }
+@media (min-width:0px) and (max-width:422px)
+{
+   
+    .btn-floating{
+    margin-top:10px;
+    margin-right:5px;
+        margin-left:0px;
+        padding:2px;
+       
+}
+    .input-group{
+ box-shadow: 0px 0px 5px 5px blue;
+    margin-top:30px;
+     margin-bottom:10px;
+}
+
+ .im{
+     width:80%;
+    }
+    #imm{
+        margin-right:2%;
+    }
+    .inp{
+        width:110px;
+    }
+     .boxxx1 {
+	font-size: 25px;
+        padding-left:5%;
+}
+    .alignleft{
+        padding-bottom: 15px;
+    }
+.alignright {
+	float: center;
+    font-size: 25px;
+}
+    .bbb{
+        font-size:20px;
+        padding-left:10px;
+        padding-right:10px;
+        float:center;
+    }    
+}
+@media (min-width:276px) and (max-width:360px)
+{
+     
+     h2{
+        margin-top: -28px;
+        font-size:12px;
+         display: none;
+    } 
+    .hh{
+        font-size:50px;
+    }
+    .con{
+       font-size:40px;
+    }
+    .son{
+       font-size:40px;
+    }
+    .sub{
+        width:100px;
+    }
+}
+@media(max-width:300px)
+{
+    .card{
+        width:60%;
+    }
+    .her{
+        font-size:50px;
+    }
+}
+@media(max-width:275px){
+    .hh{
+        font-size:40px;
+    }
+    .btn-outline-light
+    h2{
+        display: none;
+    }
+    .con{
+       font-size:30px;
+          -webkit-text-stroke: 2px black;
+    }
+    .son{
+       font-size:30px;
+          -webkit-text-stroke: 2px black;
+    }
+    .sub{
+        width:80px;
+    }
+     .alignleft{
+      font-size:17px;
+         padding-bottom: 5px;
+    }
+.alignright {
+	    font-size: 25px;
+}
+    .bbb{
+        font-size:15px;
+        padding-left:10px;
+        padding-right:10px;
+    }  
+}
+
